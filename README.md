@@ -117,9 +117,8 @@ My documented individual work focused on **dataset acquisition and verification,
 
 | File                                                                        | Description                                                                    |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| `[ITAI2373_NewsBot_Midterm.ipynb](ITAI2373_NewsBot_Midterm_Executed.ipynb)` | Fully executed notebook with code, analytical outputs, and figures             |
-| `[MT_Report_Individual_ITAI2373.pdf](MT_Report_Individual_ITAI2373.pdf)`    | Supplementary individual technical report interpreting results and limitations |
-| `[newsbot_metrics.json](newsbot_metrics.json)`                              | Saved summary of the executed notebook's measured results                      |
+| `[ITAI2373_NewsBot_Midterm.ipynb](ITAI2373_NewsBot_Midterm.ipynb)`          | Fully executed notebook with code, analytical outputs, and figures             |
+| `[MT_Report_Individual_ITAI2373.pdf](MT_Report_Individual_ITAI2373.pdf)`    | Supplementary individual technical report interpreting results and limitations |                   |
 | `[SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md)`                        | Final course submission and verification checklist                             |
 | `README.md`                                                                 | Project overview and contribution documentation                                |
 
