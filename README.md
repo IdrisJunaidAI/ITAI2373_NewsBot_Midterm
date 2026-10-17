@@ -110,31 +110,31 @@ My documented individual work focused on **dataset acquisition and verification,
 
 **Results communication and portfolio organization.** I prepared the executed notebook and supporting technical documentation for a public individual GitHub portfolio, with this README explaining the project purpose, reproducibility steps, measured findings, business relevance, and limitations.
 
-**Collaboration and academic integrity.** This repository is my individual portfolio copy of the course midterm project. Where portions of the underlying implementation originated from the instructor's starter notebook or group collaboration, those contributions should be credited to their respective sources and contributors rather than represented as my exclusive work. AI assistance supported technical troubleshooting, documentation, and explanation; the reported metrics come from the executed Colab notebook. Any additional named team acknowledgments should be added before submission where applicable.
+**Collaboration and academic integrity.** This repository is my individual portfolio copy of the course midterm project. Where portions of the underlying implementation originated from the instructor's starter notebook or group collaboration, those contributions should be credited to their respective sources and contributors rather than represented as my exclusive work. AI assistance supported technical troubleshooting, documentation, and explanation; the reported metrics come from the executed Colab notebook. Contributions beyond the documented individual tasks are not claimed.
 
 ## 7. Repository files
 
+All four files below are published in the repository root. The links use their exact GitHub filenames.
 
-| File                                                                        | Description                                                                    |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| `[ITAI2373_NewsBot_Midterm.ipynb](ITAI2373_NewsBot_Midterm.ipynb)`          | Fully executed notebook with code, analytical outputs, and figures             |
-| `[MT_Report_Individual_ITAI2373.pdf](MT_Report_Individual_ITAI2373.pdf)`    | Supplementary individual technical report interpreting results and limitations |                   |
-| `[SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md)`                        | Final course submission and verification checklist                             |
-| `README.md`                                                                 | Project overview and contribution documentation                                |
+| File | Purpose |
+| --- | --- |
+| [Executed NewsBot notebook](ITAI2373_NewsBot_Midterm.ipynb) | Runnable Jupyter notebook with saved NLP analysis, evaluation outputs, and visualizations |
+| [Individual reflective journal (PDF)](MT_Reflective_Report_IdrisJunaid_ITAI2373.pdf) | Personal reflection on technical challenges, learning, and project implications |
+| [Individual technical report (PDF)](MT_Technical_Report_IdrisJunaid_ITAI2373.pdf) | Technical methodology, performance results, limitations, and business interpretation |
+| [README.md](README.md) | Project overview, measured findings, contributions, and execution guidance |
 
-
-If you organize reports inside `reports/`, update the report link above to `reports/MT_Report_Individual_ITAI2373.pdf`.
+The repository itself is dedicated exclusively to the midterm. The professor's instructions also specify an `ITAI2373-NewsBot-Midterm` portfolio folder. This standalone repository uses the same project identity with underscores in its repository name; confirm with the instructor if the precise nested folder convention is mandatory.
 
 ## 8. Reproduce the project in Google Colab
 
-1. Open `[ITAI2373_NewsBot_Midterm.ipynb](ITAI2373_NewsBot_Midterm_Executed.ipynb)` in [Google Colab](https://colab.research.google.com/).
-2. Open the approved [BBC competition data page](https://www.kaggle.com/competitions/learn-ai-bbc/data), accept the competition rules as needed, and download `BBC News Train.csv`.
-3. Start a fresh Colab runtime. Run the setup cell without upgrading core preinstalled scientific packages unnecessarily.
-4. Execute the notebook cells in order and upload the correct training CSV when prompted.
-5. Confirm that the cleaned dataset has the expected five labels; review the classifier comparison, held out classification report, confusion matrix, linguistic plots, and entity/sentiment outputs.
-6. Optionally retain the generated `newsbot_metrics.json` to document the metrics from that execution.
+1. Open the [executed Jupyter notebook](ITAI2373_NewsBot_Midterm.ipynb) and load it in [Google Colab](https://colab.research.google.com/).
+2. Obtain `BBC News Train.csv` from the instructor approved [BBC News Classification competition](https://www.kaggle.com/competitions/learn-ai-bbc/data) after accepting its terms when prompted.
+3. Use a fresh Colab runtime and run the notebook's dependency setup without unnecessary upgrades to core scientific packages.
+4. Run the cells in order, selecting the labeled BBC training CSV when asked. Do not use the unrelated Kaggle housing `train.csv`.
+5. Review the five category distributions, cross validation model comparison, held out classification report, confusion matrix, POS and syntactic analyses, sentiment charts, and named entity findings.
+6. To independently confirm the reported accuracy, reproduce the notebook's training and evaluation with its recorded random seed and data processing logic.
 
-**Reproducibility note:** The Kaggle CSV is not redistributed here. Users must obtain it from the dataset provider under the applicable competition terms. Google Colab network and dependency availability may change over time.
+**Reproducibility notes:** The dataset is distributed through Kaggle, not through this repository. A fresh runtime may require installation of the spaCy English model and standalone VADER package. Exact results can vary when software versions or source data change.
 
 ## 9. Limitations and future enhancements
 
@@ -144,7 +144,9 @@ Potential enhancements include modern held out datasets, a manually annotated ev
 
 ## 10. Academic submission context
 
-The professor's project instructions require an individual public GitHub portfolio repository containing the complete runnable notebook, documentation, analysis, and visualizations, alongside a **separate, exactly two page group reflective journal submitted once per team**. The technical report in this repository is supplementary and does not replace that group journal. The professor also specifies a project folder named `ITAI2373-NewsBot-Midterm`; if this repository is used as a broader portfolio, maintain that exact folder name as required.
+The professor has approved an **individual submission** for this student. Accordingly, this repository documents the individually executed NewsBot notebook, the individual technical report, and the individual reflective journal. It does not claim unperformed group collaboration or substitute hypothetical teammate contributions. The technical report provides supplementary analysis; the project assessment ultimately follows the instructor's instructions and grading rubric.
+
+For Canvas, use the public [repository homepage](https://github.com/IdrisJunaidAI/ITAI2373_NewsBot_Midterm) rather than a link to an individual file. All benchmark scores here are from the recorded BBC dataset evaluation, not a promise of performance on unseen publishers or recent news.
 
 ## 11. References
 
@@ -156,4 +158,4 @@ The professor's project instructions require an individual public GitHub portfol
 
 ---
 
-**Execution evidence:** All quantitative claims in this README are based on the supplied executed NewsBot notebook or its emitted metrics summary. Other team contributions and authorship should be attributed accurately before academic submission.
+**Execution evidence:** All quantitative claims in this README are based on the supplied executed NewsBot notebook or its emitted metrics summary. Authorship of starter materials and third party software remains with their respective creators.
