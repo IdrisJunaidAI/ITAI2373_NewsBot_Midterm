@@ -44,3 +44,8 @@ The notebook's historical BBC dataset began with 1,490 labeled records. Quality 
 ## Scope and attribution
 
 This repository is an individual portfolio for a collaborative course midterm. It documents dataset sourcing, notebook execution, troubleshooting, verification, interpretation and portfolio work without claiming sole authorship of every notebook component. AI assistance supported troubleshooting and documentation. Original assignments, instructor materials and team contributions retain their original attribution. Grades, private communications, teammate names and screenshots of classroom discussions are deliberately not published as portfolio evidence.
+
+
+## Final submission status
+
+The NewsBot 2.0 repository is existing development evidence. The definitive final project documents are pending student upload and approval. Repository contents do not establish completion of the academic submission.
