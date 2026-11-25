@@ -34,3 +34,8 @@ The table maps the modules visible in the course outline to published work. A co
 ## Instructor and reviewer quick path
 
 Open [the midterm notebook](../ITAI2373_NewsBot_Midterm.ipynb), [individual technical report](../MT_Technical_Report_IdrisJunaid_ITAI2373.pdf), [individual reflection](../MT_Reflective_Report_IdrisJunaid_ITAI2373.pdf), then [the final project](https://github.com/IdrisJunaidAI/NewsBot-Intelligence-System-2.0). Each artifact should be reviewed against the relevant assignment expectations.
+
+
+## Final submission status
+
+The NewsBot 2.0 repository is existing development evidence. The definitive final project documents are pending student upload and approval. Repository contents do not establish completion of the academic submission.
