@@ -1,0 +1,21 @@
+name: Portfolio integrity
+on:
+  push:
+    paths:
+      - "docs/**"
+      - "PORTFOLIO.md"
+      - "README.md"
+      - "scripts/check_portfolio.py"
+      - "ITAI2373_NewsBot_Midterm.ipynb"
+      - ".github/workflows/portfolio-checks.yml"
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate public portfolio and notebook JSON
+        run: python scripts/check_portfolio.py

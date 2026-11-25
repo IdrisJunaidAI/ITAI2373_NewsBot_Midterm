@@ -1,3 +1,5 @@
+> **Explore the complete ITAI 2373 learning portfolio:** [Interactive showcase](docs/index.html) · [Portfolio directory](PORTFOLIO.md) · [Curriculum and evidence map](docs/COURSE_INDEX.md) · [Advanced capstone](https://github.com/IdrisJunaidAI/NewsBot-Intelligence-System-2.0). The interactive site is ready for GitHub Pages after Pages is enabled with the main branch /docs folder.
+
 # NewsBot Intelligence System
 
 ### ITAI 2373 | Natural Language Processing Midterm Project
