@@ -60,7 +60,7 @@
     empty.hidden = false;
     empty.textContent = "Browse the complete evidence index in PORTFOLIO.md or serve the docs directory with a local web server.";
     var fallback = node("a", "", "Open the portfolio directory ↗");
-    fallback.href = "../PORTFOLIO.md";
+    fallback.href = "https://github.com/IdrisJunaidAI/ITAI2373_NewsBot_Midterm/blob/main/PORTFOLIO.md";
     cards.append(fallback);
   });
 }());
