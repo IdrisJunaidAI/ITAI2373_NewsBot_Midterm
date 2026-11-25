@@ -1,0 +1,138 @@
+[
+  {
+    "id": "first-notebook",
+    "title": "First Jupyter Notebook",
+    "track": "Foundations",
+    "status": "Published notebook",
+    "date": "Aug 2026",
+    "skills": [
+      "Python",
+      "Jupyter",
+      "GitHub"
+    ],
+    "description": "Introductory code cells, Markdown explanations and a first text splitting exercise. Demonstrates a reproducible learning workflow.",
+    "evidence": "Public repository with My_First_Notebook.ipynb",
+    "link": "https://github.com/IdrisJunaidAI/jupyter-exploration",
+    "label": "View lab repository"
+  },
+  {
+    "id": "nlp-in-action",
+    "title": "NLP in Action: Pop Culture",
+    "track": "Foundations",
+    "status": "Documented reflection",
+    "date": "Aug 2026",
+    "skills": [
+      "Natural language understanding",
+      "Context",
+      "Human robot interaction"
+    ],
+    "description": "Conceptual comparison of Rosie from The Jetsons and JARVIS from Iron Man, with closer analysis of recognition, context and action.",
+    "evidence": "Individual written reflection; see portfolio summary",
+    "link": "../docs/labs/01-nlp-in-action.md",
+    "label": "Read reflection summary"
+  },
+  {
+    "id": "lab02",
+    "title": "Lab 02: Text Preprocessing",
+    "track": "Methods",
+    "status": "Executed notebook",
+    "date": "Aug 2026",
+    "skills": [
+      "NLTK",
+      "spaCy",
+      "Tokenization",
+      "Normalization"
+    ],
+    "description": "Tests the effect of casing, stop words, punctuation, stemming and lemmatization, including preservation of meaningful domain tokens.",
+    "evidence": "17 code cells with saved outputs in uploaded notebook; public repository counterpart",
+    "link": "https://github.com/IdrisJunaidAI/efficacy-ai-learning-hub/blob/main/L02_IdrisJunaid_ITAI_2373.ipynb",
+    "label": "Open notebook"
+  },
+  {
+    "id": "lab04",
+    "title": "Lab 04: Text Representation",
+    "track": "Methods",
+    "status": "Executed notebook",
+    "date": "Sep 2026",
+    "skills": [
+      "Bag of Words",
+      "TF IDF",
+      "N grams",
+      "Embeddings"
+    ],
+    "description": "Compares sparse vectors, cosine similarity, local word order and embedding tradeoffs. Notes why a perfect fallback corpus score is not external validation.",
+    "evidence": "35 executed code cells and reflective journal",
+    "link": "https://github.com/IdrisJunaidAI/efficacy-ai-learning-hub/blob/main/L04_IdrisJunaid_ITAI_2373.ipynb",
+    "label": "Open notebook"
+  },
+  {
+    "id": "lab05",
+    "title": "Lab 05: Part of Speech",
+    "track": "Analysis",
+    "status": "Executed notebook",
+    "date": "Sep 2026",
+    "skills": [
+      "POS tagging",
+      "NLTK",
+      "spaCy",
+      "Ambiguity"
+    ],
+    "description": "Compares NLTK and spaCy grammatical annotation, ambiguous words and tag sets with saved code outputs.",
+    "evidence": "11 executed code cells; public completed notebook",
+    "link": "https://github.com/IdrisJunaidAI/efficacy-ai-learning-hub/blob/main/L05_Completed_POS_Tagging_Lab.ipynb",
+    "label": "Open notebook"
+  },
+  {
+    "id": "lab07",
+    "title": "Lab 07: Sentiment and Emotion",
+    "track": "Analysis",
+    "status": "Executed notebook",
+    "date": "Nov 2026",
+    "skills": [
+      "VADER",
+      "TextBlob",
+      "TF IDF",
+      "Classification"
+    ],
+    "description": "Analyzes polarity and linguistic context, then explores supervised sentiment classification and evaluation.",
+    "evidence": "19 code cells; 18 with saved outputs in uploaded notebook",
+    "link": "https://github.com/IdrisJunaidAI/efficacy-ai-learning-hub/blob/main/L07_Junaid_Idris_ITAI2373.ipynb",
+    "label": "Open notebook"
+  },
+  {
+    "id": "midterm",
+    "title": "NewsBot Intelligence System",
+    "track": "Projects",
+    "status": "Executed research prototype",
+    "date": "Oct 2026",
+    "skills": [
+      "Linear SVM",
+      "spaCy",
+      "NER",
+      "Sentiment",
+      "Model evaluation"
+    ],
+    "description": "Integrates eight NLP areas on 1,440 retained BBC articles. Held out accuracy: 96.53% on a 288 article historical BBC test split.",
+    "evidence": "Executed notebook and individual technical and reflective reports",
+    "link": "https://github.com/IdrisJunaidAI/ITAI2373_NewsBot_Midterm",
+    "label": "View midterm"
+  },
+  {
+    "id": "final",
+    "title": "NewsBot Intelligence System 2.0",
+    "track": "Projects",
+    "status": "Advanced capstone repository",
+    "date": "Nov 2026",
+    "skills": [
+      "Flask",
+      "Topic modeling",
+      "Summarization",
+      "Multilingual retrieval",
+      "Testing"
+    ],
+    "description": "Separate application with historical BBC analytics, distinct supervised model evaluation, multilingual research, a synthetic retrieval demonstration and a web interface.",
+    "evidence": "Application source, reproducibility guidance, automated tests and individual reports",
+    "link": "https://github.com/IdrisJunaidAI/NewsBot-Intelligence-System-2.0",
+    "label": "View capstone"
+  }
+]
